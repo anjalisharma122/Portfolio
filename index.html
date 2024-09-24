@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title> Anjali's - Portfolio </title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,400;0,600;0,700;1,100&display=swap"
+        rel="stylesheet"
+    />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css" integrity="sha384-k6RqeWeci5ZR/Lv4MR0sA0FfDOMdJrGZ1V4UUPXz5Z2zW3c8Cq2p4LyyDmjA7S9" crossorigin="anonymous" />
+    <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="left">Anjali's Portfolio</div>
+            <div class="right">
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#aboutme">About</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact Me</a></li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <section id="home" class="firstsection">
+            <div class="left-section">
+                Hi, My name is <span class="purple">Anjali Sharma</span>
+                <div>and I am a passionate</div>
+                <span id="element"></span>
+            </div>
+            <div class="right-section">
+                <img src="11zon_cropped.png" alt="" style="width: 70%; height: 70%" />
+            </div>
+        </section>
+        <hr>
+        <section id="aboutme" class="aboutme">
+            <h1>About Me</h1>
+            <p>
+                My name is <span class="purple">Anjali Sharma</span>, and I am a second-year student pursuing a Bachelor's of Engineering from the Army Institute of Technology, Pune. I am learning web development and have done HTML, CSS, and JavaScript basics. I have solved more than 200 coding questions, and I want to learn a lot.
+            </p>
+            <div class="social-links">
+                <a href="https://www.linkedin.com/in/your-linkedin" target="_blank">
+                    <i class="fab fa-linkedin"></i> LinkedIn
+                </a>
+                <a href="https://github.com/anjalisharma122" target="_blank">
+                    <i class="fab fa-github"></i> GitHub
+                </a>
+            </div>
+            <h2>Position of Responsibility</h2>
+            <ul>
+                <li>Member of the technical team of the Robotics Club</li>
+                <li>Member of the Content and PR team in the Technical Board</li>
+            </ul>
+        </section>
+        <hr>
+        <section id="projects" class="projects">
+            <h1>Projects</h1>
+            <div class="project-list">
+                <a href="https://anjalisharma122.github.io/Weather-App/" class="project">
+                    <h2>Project 1</h2>
+                    <p>Weather App using HTML,CSS,Javascript,API Integration and Responsive Design</p>
+                </a>
+                <a href="https://anjalisharma122.github.io/Tic-Tac-Toe/" class="project">
+                    <h2>Project 2</h2>
+                    <p>Tic-Tac-Toe using HTML,CSS,Javascript</p>
+                </a>
+                <a href="https://anjalisharma122.github.io/Rockpaper/" class="project">
+                    <h2>Project 3</h2>
+                    <p>Rock-Paper-Scissor using HTML,CSS and Javascript</p>
+                </a>
+            </div>
+        </section>
+        <hr>
+        <section id="contact" class="contact" style="margin-left: 100px; margin-bottom: 50px;">
+            <h1>Contact Me</h1>
+            <p>If you would like to get in touch, feel free to reach out!</p>
+            <div class="social-links">
+                <a href="mailto:anjalisharma288863@gmail.com"><i class="fas fa-envelope"></i> Email</a>
+                <a href="https://www.linkedin.com/in/anjali-sharma-588145289/" target="_blank"><i class="fab fa-linkedin"></i> LinkedIn</a>
+                <a href="https://github.com/your-github" target="_blank"><i class="fab fa-github"></i> GitHub</a>
+            </div>
+        </section>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+        var typed = new Typed('#element', {
+            strings: ['Web Developer', 'Coding Enthusiast'],
+            typeSpeed: 50,
+        });
+    </script>
+</body>
+</html>
